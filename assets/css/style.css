@@ -1,0 +1,55 @@
+body {
+    background-color: #eee;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background: url('../images/donutShop.png') no-repeat;
+    background-size: cover;
+}
+.container { 
+    text-align: center;
+    
+}
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 5px;
+    background-color:orangered;
+    opacity: .9;
+}
+#title-image, #gameover-image, #youwin-image{ 
+    display: block;
+    margin: 0 auto;
+    size: 200px x 200px;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#hangmanImage{
+    padding: 20px;
+    border: 3px solid red;
+    margin: 100px;
+    size: 400px x 500px;
+}
+
+#pressKeyTryAgain, 
+#gameover-image, 
+#youwin-image 
+.gameplay-column {
+    padding-top: 20px;
+    border: 3px solid #fff;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.hangman-column {
+    padding-top: 20px;
+    border: 3px solid #fff;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, .3);
+}
